@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url(Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(Inter/static/Inter_18pt-Medium.ttf) format(truetype);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } 
+
+
+body {
+    background-color: white;
+    font-family: "Arial", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #e2e2e1;
+    border-radius: 8px;
+    width: 1220px;
+    height: 93.6px;
+    margin: 20px auto;
+    padding: 0 32px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: auto;
+    padding: 30px;
+    height: 32px;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+.nav-menu {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 300;
+    line-height: 10px;
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1px;
+}
+
+.nav-menu a {
+    width: 411px;
+    height: 24px;
+    text-decoration: none;
+    color: #696B66;
+}
+
+.nav-button {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    gap: 12px;
+}
+
+.btn-sign {
+    font-family: "Inter", sans-serif;
+    width: 84px;
+    height: 52px;
+    border: 1px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid #e2e2e1;
+    font-size: 16px;
+}
+
+.btn-reservasi {
+    width: 109px;
+    height: 52px;
+    background-color: #0077b6;
+    border-radius: 8px;
+    border: none;
+    color: #e2e2e1;
+    font-size: 16px;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #0077b6;
+    margin: 53.5px auto;
+    width: 365px;
+    height: 34px;
+    border-radius: 100000px;
+    color: #ffff;
+    padding: 3px 5px;
+    font-size: 14px;
+}
+
+.badge {
+    width: 116px;
+    height: 30px;
+    padding: 4px 12px;
+    font-weight: 600;
+    border: 1px #e2e2e1;
+    border-radius: 100000px;
+    background-color: #ffff;
+    color: #01699f;
+    font-size: 14px;
+    line-height: 20px;
+    gap: 12px;
+}
+
+.label-text {
+    width: 243px;
+    height: 20px;
+    padding-left: 10px;
+}
+
+.line-text {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    max-width: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.line-text h1 {
+    font-size: 60px;
+    font-weight: 400;
+    color: #0e1109;
+    line-height: 1.2;
+    width: 1160px;
+    height: 144px;
+    margin-bottom: 30px;
+}
+
+.line-text p {
+    font-size: 18px;
+    color: #696B66;
+    font-weight: 300;
+}
+
+.btn-deep {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
